@@ -1,0 +1,26 @@
+# data and derived objects -- never in the code repository
+data/
+results/
+figures/
+submission/
+PerturbME_transfer/
+*.h5ad
+*.h5
+*.npy
+*.npz
+*.pkl
+*.bam
+*.fastq.gz
+
+# notebook outputs are stripped before release
+.ipynb_checkpoints/
+
+# python
+__pycache__/
+*.py[cod]
+.venv/
+env/
+
+# os / editor
+.DS_Store
+.vscode/
