@@ -25,7 +25,9 @@ OUT = os.path.join(REPO, 'submission/code_release')
 
 CODE_EXT = {'.py', '.R', '.sh'}
 SKIP_DIRS = {'__pycache__', '.ipynb_checkpoints', '.git', 'archive'}
-SKIP_NAMES = {'.DS_Store'}
+# build_supplementary_files.py only renumbers the submission's supplementary items; it is
+# submission logistics rather than analysis code, so it stays out of the public release.
+SKIP_NAMES = {'.DS_Store', 'build_supplementary_files.py'}
 
 # --- what counts as "part of the paper" -------------------------------------------------
 # The working tree carries several exploratory branches that the final manuscript does not

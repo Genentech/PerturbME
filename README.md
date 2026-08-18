@@ -1,7 +1,8 @@
 # Perturb-ME
 
 Analysis code for *"Perturb-ME: Scalable mechanism discovery from phenotype-enriched
-genome-wide screens"* (Wang, Gu, Frangieh et al.).
+genome-wide screens"* (Wang, Gu, Frangieh et al.), bioRxiv (2026),
+[doi.org/10.64898/2026.08.17.745330](https://doi.org/10.64898/2026.08.17.745330).
 
 Perturb-ME combines genome-scale CRISPR screening, marker-based phenotypic enrichment by FACS,
 and multimodal single-cell profiling by Perturb-CITE-seq. Applied to surface MHC-I (HLA-A/B/C)
@@ -26,7 +27,7 @@ This repository contains **code only**. The data live in two places:
 ## Layout
 
 ```
-src/            67 analysis modules, organised by stage
+src/            66 analysis modules, organised by stage
   RNA/          cell and gene filtering, QC
   Hash/         hashtag demultiplexing (Cumulus)
   CITE/         antibody-derived tag normalisation
@@ -67,7 +68,10 @@ when the analysis was run rather than rewriting them after the fact.
 
 ## Citation
 
-Please cite the paper.
+Wang, H., Gu, J., Frangieh, C. J., Cuoco, M. S., Zhao, M., Sett, A., Beyer, T., Pang, K.,
+Stolte, E., Xu, Z., Leskovec, J., Rozenblatt-Rosen, O., Natarajan, V., Geiger-Schuller, K.,
+Thakore, P. I. & Regev, A. Perturb-ME: Scalable mechanism discovery from phenotype-enriched
+genome-wide screens. *bioRxiv* (2026). doi:10.64898/2026.08.17.745330
 
 ## License
 
